@@ -19,7 +19,7 @@ class ApiClient  private constructor() {
 
     companion object {
 
-        private val BASE_URL = ""
+        private val BASE_URL = "https://wide-angle-assembly.000webhostapp.com/"
 
         private var apiClient: ApiClient? = null
         private var retrofit: Retrofit? = null
